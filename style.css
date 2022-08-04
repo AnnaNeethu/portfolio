@@ -1,0 +1,82 @@
+body{
+    text-align: center;
+    margin: 0%;
+    background: linear-gradient(rgb(63, 2, 2),rgb(212, 95, 95));
+
+}
+.menu{
+    background-color: rgb(75, 8, 8);
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    margin-top: 0px;
+}
+.links{
+    display: inline;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Tapestry', cursive;
+
+}
+img{
+    /* width: 400px; */
+    margin-top: 50px;
+     /* height: 400px;  */
+}
+a{
+    text-decoration: none;
+    color: rgb(177, 154, 159);
+}
+.links:hover{
+    font-size: 20px;
+    text-decoration: underline;
+}
+.profile{
+    width: 300px;
+    border-radius: 50%;
+}
+html{
+    scroll-behavior: smooth;
+}
+#welcome{
+    background: linear-gradient(rgb(63, 2, 2),rgb(212, 95, 95));
+    color: brown;
+}
+h2{
+    font-size: 40px;
+    color: rgb(44, 3, 3);
+    font-family: 'Noto serif', cursive;
+}
+h1{
+    font-size: 50px;
+    font-family: 'Noto serif', serif;
+    color: rgb(44, 3, 3);
+    /* font-family: 'Nanum Myeongjo', serif; */
+/* font-family: 'Tapestry', cursive; */
+}
+#writings a{
+    text-shadow: none;
+    color: blueviolet;
+    text-decoration: underline;
+}
+#writings a:hover{
+    color: crimson;
+}
+#contact{
+    background-color: brown;
+
+}
+#contact iframe{
+    margin-left: 5px;
+    /* margin-right: 20px; */
+    width: 100%;
+    margin-top: 20px;
+}
+.contact_1{
+    background-color: rgb(150, 88, 88);
+}
+.contact_1 a{
+    color: blue;
+    text-decoration: underline;
+    text-shadow: none;
+}
